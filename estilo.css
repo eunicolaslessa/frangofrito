@@ -1,0 +1,128 @@
+/* Reset de estilos para remover margens e preenchimentos padrão */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização básica do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #ff9800;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilo do menu */
+#menu {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#menu h2 {
+    font-size: 24px;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    margin-bottom: 20px;
+}
+
+.preco {
+    font-weight: bold;
+    color: #ff9800;
+}
+
+/* Estilo da seção "Sobre Nós" */
+#sobre {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+#sobre h2 {
+    font-size: 24px;
+}
+
+#sobre p {
+    font-size: 16px;
+}
+
+/* Estilo da seção de contato */
+#contato {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#contato h2 {
+    font-size: 24px;
+}
+
+#contato form {
+    margin-top: 20px;
+}
+
+#contato label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contato button[type="submit"] {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
